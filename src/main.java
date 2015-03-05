@@ -1,6 +1,3 @@
-/**
- * Created by grizzly on 3/5/15.
- */
 public class main  extends Thread {
         main() {
 // Create a new, second thread
@@ -18,6 +15,7 @@ public class main  extends Thread {
             } catch (InterruptedException e) {
                 System.out.println("Child interrupted.");
             }
+            System.out.println("Exiting child thread.");
             System.out.println("Exiting child thread.");
         }
     }
